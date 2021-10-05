@@ -433,7 +433,8 @@ html {
 
 /* =================== Skills Starts Here =================== */
 .skills .skii-div {
-  padding: 90px 110px; }
+  padding: 90px 110px; 
+}
   @media screen and (max-width: 767px) {
     .skills .skii-div {
       padding: 50px; } }
@@ -457,9 +458,17 @@ html {
       .skills .skii-div ul li .bg-warning {
         background-color: #fe9c2c !important; }
 .skills .tech-skill {
-  background-color: #FFFFFF; }
+  background-color: #f8a94f; }
 .skills .pro-skill {
-  background-color: #FFFFFF; }
+  background-color: #fe9c2c; 
+  color: #ffffff;  
+}
+.skills .pro-skill .title h2 {
+  color: #ffffff;  
+}
+.skills.container-fluid {
+  background-color: #f8a94f;
+}
 
 /* =================== Services Starts Here =================== */
 .services {
