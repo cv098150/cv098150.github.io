@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: About
+  link: /#about_us
+- name: Skills
+  link: /#skills
+- name: Work experience
+  link: /#experience
+- name: blog
+  link: /blog

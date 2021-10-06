@@ -11,11 +11,13 @@
 
             <div id="menu" class="col-md-9 d-none d-md-block">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about_us">About </a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Work experience</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    {% for item in site.data.navigation %}
+                    <li>
+                        <a href="{{ item.link }}">
+                            {{ item.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
