@@ -451,12 +451,14 @@ html {
     margin-top: 25px; }
     .skills .skii-div ul li {
       font-weight: 600;
-      font-size: .9rem;
+      font-size: 1.1rem;
       margin-bottom: 30px; }
       .skills .skii-div ul li label {
         margin-bottom: 15px; }
       .skills .skii-div ul li .bg-warning {
         background-color: #fe9c2c !important; }
+        .skills .skii-div ul li span{
+          font-size: 0.9rem; }
 .skills .tech-skill {
   background-color: #f8a94f; }
 .skills .pro-skill {
